@@ -19,7 +19,7 @@ a {
 }
 
 .container {
-    width: 1903px;
+    width: 100vw;
     height: 100vh;
     background: #EBECF0;
     text-align: center;
