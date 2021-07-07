@@ -4,6 +4,7 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    list-style: none;
 }
 @font-face {
     font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
@@ -34,17 +35,20 @@ a {
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .title > .text{
-    width: 660px;
+    width: 400px;
     height: 100px;
     line-height: 100px;
     font-size: 36px;
     font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal;
     text-align: left;
     font-weight: bold;
+
 }
+
 
 .title > a {
     width: 200px;
@@ -83,6 +87,8 @@ a {
 }
 
 .year {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     border-radius: 66px;
@@ -96,6 +102,8 @@ a {
 
 }
 .interview {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     border-radius: 66px;
@@ -109,6 +117,8 @@ a {
 }
 
 .mou {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     border-radius: 66px;
@@ -122,6 +132,8 @@ a {
 }
 
 .special {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     border-radius: 66px;
