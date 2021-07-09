@@ -64,7 +64,7 @@ a {
     margin-left: 30px;
     border-radius: 10px;
 }
-.box {
+.bigBox {
     width: 1530px;
     height: 600px;
     border-radius: 73px;
@@ -95,6 +95,8 @@ a {
     font-size: 26px;
     font-weight: bold;
     color : black;
+    padding: 40px;
+    
 }
 
 .Box:hover {
