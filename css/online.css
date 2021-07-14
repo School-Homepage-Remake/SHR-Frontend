@@ -1,0 +1,148 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #EBECF0;
+    text-align: center;
+    padding-top: 6.6vh;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+.title {
+    width: 1720px;
+    height: 100px;
+    border-radius: 73px;
+    background: #EBECF0;
+    box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > .text{
+    width: 430px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal;
+    text-align: left;
+    font-weight: bold;
+}
+
+.title > a {
+    width: 200px;
+    height: 80px;
+}
+
+.title > a > img{
+    width: 200px;
+    height: 80px;
+    box-shadow:  5px 5px 10px #898989,
+    -5px -5px 10px #ffffff;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.bigBox {
+    width: 1530px;
+    height: 600px;
+    border-radius: 73px;
+    background: #EBECF0;
+    box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;
+    margin: 0 auto;
+}
+
+.line {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line:first-child {
+    margin-bottom: 50px;
+}
+
+.Box {
+    width: 1400px;
+    height: 500px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 40px;
+    
+}
+
+.Box:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.Box .Boximg{
+    width: 500px;
+    height: 400px;
+    float: left;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.Box .Boximg .t{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:  31px 31px 61px #bebebe,
+             -31px -31px 61px #ffffff;
+}
+
+.Box .Boximg .t img{
+    padding-top: 20px;
+}
+
+.Box .text{
+    width: 800px;
+    height: 400px;
+    float: left;
+    padding-left: 30px;
+}
+
+.textfirst{
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.texttwo{
+    padding-top: 200px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
