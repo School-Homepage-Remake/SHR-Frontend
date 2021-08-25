@@ -100,7 +100,7 @@ a {
 }
 
 .Box:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
@@ -135,13 +135,13 @@ a {
 
 .textfirst{
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 
 }
 .texttwo{
     padding-top: 200px;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 }
 
