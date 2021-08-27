@@ -77,7 +77,6 @@ a {
 .line {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
     height: 100%;
 }
 
@@ -102,7 +101,7 @@ input{
     padding: 30px;
 }
 .submenu1{
-    display: none;
+    display: block;
 }
 #menuBtn1:checked ~ .submenu1 {
     display: block;
@@ -193,4 +192,15 @@ input{
 .Box:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.imageBox {
+    margin: 0 auto;
+    width: 900px;
 }
