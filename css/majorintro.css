@@ -1,0 +1,196 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #EBECF0;
+    text-align: center;
+    padding-top: 6.6vh;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+
+.title {
+    width: 1720px;
+    height: 100px;
+    border-radius: 73px;
+    background: #EBECF0;
+    box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 660px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    padding-left: 130px;
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal;
+    text-align: left;
+    font-weight: bold;
+}
+
+.title > a {
+    width: 200px;
+    height: 80px;
+}
+
+.title > a > img{
+    width: 200px;
+    height: 80px;
+    box-shadow:  5px 5px 10px #898989,
+    -5px -5px 10px #ffffff;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.bigBox {
+    width: 1530px;
+    height: 600px;
+    border-radius: 73px;
+    background: #EBECF0;
+    box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.line:first-child {
+    margin-bottom: 50px;
+}
+input{
+    display: none;
+}
+.labelBtn1 {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 30px;
+}
+.submenu1{
+    display: none;
+}
+#menuBtn1:checked ~ .submenu1 {
+    display: block;
+}
+.labelBtn2 {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 30px;
+}
+.submenu2{
+    display: none;
+}
+#menuBtn2:checked ~ .submenu2 {
+    display: block;
+}
+.labelBtn3 {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 30px;
+}
+.submenu3{
+    display: none;
+}
+#menuBtn3:checked ~ .submenu3 {
+    display: block;
+}
+.labelBtn4 {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 30px;
+}
+.submenu4{
+    display: none;
+}
+#menuBtn4:checked ~ .submenu4 {
+    display: block;
+}
+.labelBtn5 {
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+    padding: 30px;
+}
+.submenu5{
+    display: none;
+}
+#menuBtn5:checked ~ .submenu5 {
+    display: block;
+}
+.submenu{
+    display: none;
+}
+.Box:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
