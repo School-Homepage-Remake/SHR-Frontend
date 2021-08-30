@@ -85,7 +85,7 @@ a {
     margin-bottom: 50px;
 }
 
-.Box {
+.Box1 {
     width: 750px;
     height: 400px;
     border-radius: 66px;
@@ -98,14 +98,36 @@ a {
     color : black;
 }
 
-.Box:hover {
-    transform: scale(1.1);
+.Box1:hover {
+    transform: scale(1.03);
     transition: 0.5s;
 }
 
-.Box > a > img {
+.Box1 > a > img {
     width: 750px;
     height: 400px;
-    object-fit: cover;
+    border-radius: 24px;
+}
+
+.Box2 {
+    width: 750px;
+    height: 400px;
+    border-radius: 66px;
+    background: #EBECF0;
+    box-shadow:  7px 7px 14px #a9a9b1,
+             -7px -7px 14px #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color : black;
+}
+
+.Box2:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.Box2 > a > img {
+    width: 750px;
+    height: 400px;
     border-radius: 24px;
 }
