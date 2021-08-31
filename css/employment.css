@@ -149,3 +149,5 @@ a {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }

@@ -204,3 +204,5 @@ input{
     margin: 0 auto;
     width: 900px;
 }
+
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }
