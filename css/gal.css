@@ -102,7 +102,7 @@ a {
     transition: 0.5s;
 }
 
-.Box > img {
+.Box > a > img {
     width: 450px;
     height: 220px;
     object-fit: cover;
