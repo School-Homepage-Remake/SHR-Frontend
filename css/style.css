@@ -19,8 +19,8 @@ a {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 1980px;
+    height: 1080px;
     background: #EBECF0;
     text-align: center;
     padding-top: 6.6vh;
@@ -125,4 +125,4 @@ a {
     margin-bottom: -21.5px;
 }
 
-body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none }
+body { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none } /* 드래그 안되게 하는것 */
