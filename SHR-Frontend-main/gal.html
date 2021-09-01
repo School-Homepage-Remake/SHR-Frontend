@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학교 갤러리</title>
+    <link rel="stylesheet" href="./css/gal.css">
+</head>
+<style>
+    /* 리셋 CSS */
+    * {margin:0;padding:0;box-sizing:border-box;}
+    ul, li {list-style:none;}
+    
+    
+    .slidebox {    width: 1530px;
+    height: 600px;
+    border-radius: 73px;
+    background: #EBECF0;
+    box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;
+    position:relative;}
+    .slidebox .slidelist {position:relative;white-space:nowrap;font-size:0;overflow:hidden; border-radius: 73px;}
+    .slidebox .slidelist .slideitem {position:relative;display:inline-block;vertical-align:middle;background-color:#fff;width:100%;transition:all 1s; border-radius: 73px;     box-shadow:  23px 23px 46px #a5a5ad,
+                -23px -23px 46px #ffffff;}
+    .slidebox .slidelist .slideitem > a {display:block;width:auto;position:relative;}
+    .slidebox .slidelist .slideitem > a img {max-width:100%;}
+    
+    .slidebox .slide-control [class*="control"] label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:20px;border-radius:50%;cursor:pointer;}
+    .slidebox .slide-control [class*="control"] label.prev {left:-50px;background:#333 url('./images/left-arrow.png') center center / 50% no-repeat;}
+    .slidebox .slide-control [class*="control"] label.next {right:-50px;background:#333 url('./images/right-arrow.png') center center / 50% no-repeat;}
+    
+    [name="slide"] {display:none;}
+    #slide01:checked ~ .slidelist .slideitem {left:0;}
+    #slide02:checked ~ .slidelist .slideitem {left:-100%;}
+    #slide03:checked ~ .slidelist .slideitem {left:-200%;}
+    #slide04:checked ~ .slidelist .slideitem {left:-300%;}
+    
+    .slide-control [class*="control"] {display:none;}
+    #slide01:checked ~ .slide-control .control01 {display:block;}
+    #slide02:checked ~ .slide-control .control02 {display:block;}
+    #slide03:checked ~ .slide-control .control03 {display:block;}
+    #slide04:checked ~ .slide-control .control04 {display:block;}
+</style>
+<body>
+    <div class="container">
+        <div class="title">
+            <a href="./index.html"><img src="./images/logo.png" alt="로고"></a>
+            
+            <div class="text">학교 갤러리</div>
+            <div></div>
+        </div>
+
+        <div class="bigBox">
+            <div class="slidebox">
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+                <input type="radio" name="slide" id="slide03">
+                <input type="radio" name="slide" id="slide04">
+                <ul class="slidelist">
+                    <li class="slideitem">
+                        <div class="bigBox">
+                            <div class="line">
+                                <div class="Box"><a href="http://swjb.hs.kr/board.read?mcode=151210&id=1113" target="_blank"><img src="./images/future.jpg" alt=""></a><div>미래로</div></div>
+                                <div class="Box"><a href="http://swjb.hs.kr/board.read?mcode=151210&id=1098" target="_blank"><img src="./images/sorry.jpg" alt=""></a><div>사과데이</div></div>
+                            </div>
+                            <div class="line">
+                                <div class="Box"><a href="http://swjb.hs.kr/board.read?mcode=151210&id=1103" target="_blank"><img src="./images/humanAffairs.jpg" alt=""></a><div>인사실습</div></div>
+                                <div class="Box"><a href="http://swjb.hs.kr/board.read?mcode=151210&id=1106" target="_blank"><img src="./images/employment.jpg" alt=""></a><div>취업 맞춤반 발대식</div></div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="slideitem">
+                        <div class="bigBox">
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1109" target="_blank"><img src="./images/camp.jpg" alt=""></a><div>진로캠프</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1101" target="_blank"><img src="./images/hiDay.jpg" alt=""></a><div>반갑데이</div></div>
+                            </div>
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1099" target="_blank"><img src="./images/bowling.jpg" alt=""></a><div>볼링대회</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1107" target="_blank"><img src="./images/contest.jpg" alt=""></a><div>기능경기대회</div></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="slideitem">
+                        <div class="bigBox">
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1095" target="_blank"><img src="./images/fire.jpg" alt=""></a><div>재난대응안전교육</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1090" target="_blank"><img src="./images/noSmoking.jpg" alt=""></a><div>금연행사</div></div>
+                            </div>
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1084" target="_blank"><img src="./images/sports.jpg" alt=""></a><div>스포츠클럽</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1076" target="_blank"><img src="./images/sujungje.jpg" alt=""></a><div>수정제</div></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="slideitem">
+                        <div class="bigBox">
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1064" target="_blank"><img src="./images/canada.jpg" alt=""></a><div>캐나다 현장학습</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1063" target="_blank"><img src="./images/physical.jpg" alt=""></a><div>체력검사</div></div>
+                            </div>
+                            <div class="line">
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1062" target="_blank"><img src="./images/morningHi.jpg" alt=""></a><div>아침인사</div></div>
+                                <div class="Box"><a href="http://www.swjb.hs.kr/board.read?mcode=151210&id=1057" target="_blank"><img src="./images/entrance.jpg" alt=""></a><div>19년 입학식</div></div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <div class="slide-control">
+                    <div class="control01">
+                        <label for="slide04" class="prev"></label>
+                        <label for="slide02" class="next"></label>
+                    </div>
+                    <div class="control02">
+                        <label for="slide01" class="prev"></label>
+                        <label for="slide03" class="next"></label>
+                    </div>
+                    <div class="control03">
+                        <label for="slide02" class="prev"></label>
+                        <label for="slide04" class="next"></label>
+                    </div>
+                    <div class="control04">
+                        <label for="slide03" class="prev"></label>
+                        <label for="slide01" class="next"></label>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
